@@ -3,7 +3,7 @@ package section2;
 import org.jointheleague.graphical.robot.Robot;
 
 public class FlamingNinjaStar {
-	
+	//
 	public static void main(String[] args) {
 
 		int baseSize = 300;		//the size of the black part of the star
