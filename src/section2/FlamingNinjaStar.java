@@ -1,5 +1,7 @@
 package section2;
 
+import java.awt.Color;
+
 import org.jointheleague.graphical.robot.Robot;
 
 public class FlamingNinjaStar {
@@ -12,6 +14,7 @@ public class FlamingNinjaStar {
 		// 1. Make a new robot, and set it's pen down.
 Robot nugget =new Robot();
 nugget.penDown();
+nugget.hide();
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		nugget.setX(450);
 		nugget.setY(250);
@@ -28,11 +31,13 @@ nugget.move(64);
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 			nugget.turn(-40);
 			// 5. Move the robot the distance in the variable flameSize
+			nugget.setPenColor(Color.YELLOW);
 			nugget.move(flameSize);
 			// 6. Turn the robot 170 degrees
 			nugget.turn(170);
 			// 7. Move the robot the distance in the variable flameSize (again)
 			nugget.move(flameSize);
+			nugget.setPenColor(Color.BLACK);
 			// 8. Turn the robot 64 degrees to the right
 			nugget.turn(64);
 			// 9. Move the robot the distance in the variable baseSize
