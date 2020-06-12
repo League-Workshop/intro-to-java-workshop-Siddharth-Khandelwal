@@ -35,12 +35,14 @@ if (random == 1) {
 
 	// 7. If the random number is 2
 if(random == 2) {
-	JOptionPane.showMessageDialog(null, awesome+" is boring");
+	JOptionPane.showMessageDialog(null,awesome+" is boring");
 }
 	// -- tell the user whatever they entered is boring.
 
 	// 8. If the random number is 3
-
+if(random == 3){
+	JOptionPane.showMessageDialog(null,awesome+" is slimey");
+}
 	// -- write your own answer
 }
 
